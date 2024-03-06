@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+  }
+  
+  h1 {
+    margin-top: 20px;
+    color: #2ecc71; /* Light green */
+  }
+  
+  .board {
+    display: inline-block;
+    border: 2px solid #333;
+    margin-top: 20px;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .cell {
+    flex: 1;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #333;
+    font-size: 48px;
+    cursor: pointer;
+    background-color: #c7ecee; /* Light green */
+    color: #2c3e50; /* Dark gray */
+  }
+  
+  .cell:hover {
+    background-color: #a2d9ce; /* Light green - lighter */
+  }
+  
